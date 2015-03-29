@@ -1,5 +1,5 @@
-int x = -350;
-int priorx = -350;
+int x = -750;
+int priorx = -750;
 float priory = 0;
 float y = 0;
 void setup() {
@@ -10,7 +10,7 @@ void setup() {
 }
 
 void draw() {
-  translate(width/2,height/2); // grid
+  translate(width/2,height); // grid
   scale(1,-1);
 
   //-2 squared????
